@@ -54,19 +54,7 @@ class DialogItem extends StatelessWidget {
           margin: const EdgeInsets.only(
             top: 13.0,
             right: 8.0,
-          ),
-          decoration: BoxDecoration(
-            color: Colors.transparent,
-            shape: BoxShape.rectangle,
-            borderRadius: BorderRadius.circular(10),
-            boxShadow: const [
-              BoxShadow(
-                color: Colors.black26,
-                blurRadius: 0.0,
-                offset: Offset(0.0, 0.0),
-              ),
-            ],
-          ),
+          ),        
           child: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.stretch,
