@@ -56,7 +56,7 @@ class DialogItem extends StatelessWidget {
             right: 8.0,
           ),
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: Colors.transparent,
             shape: BoxShape.rectangle,
             borderRadius: BorderRadius.circular(10),
             boxShadow: const [
